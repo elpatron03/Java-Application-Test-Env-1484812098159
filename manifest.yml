@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Java Application Test Env
+  host: Java-Application-Test-Env
+  disk_quota: 1024M
+  services:
+  - Java Application Test Env-cloudantNoSQLDB
+  - ClearDB My SQL Database-gu
